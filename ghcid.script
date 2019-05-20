@@ -1,0 +1,4 @@
+:! awk '!NF{$0="putStrLn mempty"}1' testscript.hs > ghcid-script-temp
+:unset +t
+:script ghcid-script-temp
+:! rm ghcid-script-temp
