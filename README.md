@@ -12,3 +12,8 @@ Same as above, but the ghcid.script changes every blank line to 'putStrLn mempty
 It also turns off +t
 
 `ghcid testDefinitions.hs --reload="testscript.hs" --test=":script ghcid.script"`
+
+## Todo
+Make it easier to change the script inside ghcid.script.
+
+Maybe make it an arg in a bash script?
